@@ -72,7 +72,7 @@ function renderTasks() {
     //Enter key support
     taskInput.addEventListener("keyup", (e) => {
         if (e.key === "Enter") {
-            addBtn.click(); //
+            addBtn.click(); //enable enter
         }
     })
 
